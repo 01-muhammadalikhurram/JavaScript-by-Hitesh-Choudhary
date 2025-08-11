@@ -112,3 +112,38 @@ const users = [
 // console.log(Object.entries(tinder_user));
 
 // console.log(tinder_user.hasOwnProperty("is_logged_in"));
+
+
+// Objects - Part 3 - Objects De-Structure and JSON API
+const course = {
+    course_name: "JS in Hindi",
+    course_price: "999",
+    course_instructor: "Hitesh"
+}
+
+//Object Destructuring
+const {course_instructor} = course
+const {course_instructor: ins} = course
+// console.log(course_instructor);
+// console.log(ins);
+
+//REACT PART
+// const navbar = () => {
+
+// }
+
+// navbar(company_name = "hitesh")
+
+// API
+// JSON format => JSON = JavaScript Object Format
+// {
+//     "name": "hitesh",
+//     "course_name": "js in hindi",
+//     'course_price': "free"
+// }
+// Array format
+[
+    {},
+    {},
+    {}
+]
