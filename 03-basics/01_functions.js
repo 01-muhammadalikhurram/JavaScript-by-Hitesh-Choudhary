@@ -53,5 +53,5 @@ function return_second_value(get_array){
 }
 
 // console.log(return_second_value(arr));
-
+// sample line for pull request let's see what happens
 //also understood about scope
