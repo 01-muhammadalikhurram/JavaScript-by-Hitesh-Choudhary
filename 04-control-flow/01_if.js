@@ -136,5 +136,5 @@ var1 = 10 ?? null
 
 // ternary operator
 const ice_tea = 100
-ice_tea >= 80 ? console.log('less than 80') : console.log('more than 80');
+// ice_tea >= 80 ? console.log('less than 80') : console.log('more than 80');
 
